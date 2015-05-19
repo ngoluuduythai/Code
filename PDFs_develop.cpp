@@ -20,7 +20,7 @@ void val(double x[DIMENSION], double f[FUNCTIONS])
 	double y3max=1.   ,y3min=-1.   ;
 	double y4max=1.0   ,y4min=-1.0   ;
         double s = pow(14000.,2.);
-   	double hc=pow(0.38935,9.);	
+   	double hc=0.38935E9;	
 	double cv=pow(10,9);
        	double fpdf;
         double x1,x2,pT,y3,y4;
